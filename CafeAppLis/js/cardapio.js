@@ -32,7 +32,7 @@ const itens = [
 ];
 //acima dataset que vai ser usado para montar o cardapio dinamicamente
 
-//iteracao em cada elemento do objeto itens, para preencher o cardapio com seus valores
+//iteracao em cada objeto json presente na lista "itens", para preencher o cardapio dinamicamente com os seus valores
 for (let item of itens) {
 
   const view = `<div class="col card mx-1 py-1">
