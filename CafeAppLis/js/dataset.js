@@ -1,6 +1,6 @@
 const itens = [
   {
-  //pares "chave :  valor" separados por virgula, nos objetos json presentes em "itens"
+  //==pares "chave :  valor" separados por virgula, nos objetos json presentes em "itens"
     "imagem":"https://images.unsplash.com/flagged/photo-1552938218-ac9ec40c702a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80",
     "nome":"Café",
     "preparo":"Lorem ipsum dolor sit amet, consectetur adipisicing elit."
@@ -32,4 +32,4 @@ const itens = [
   },
 ];
 
-export default itens;//export default para poder ser importado em outro documento js
+export default itens;//==export default para poder ser importado em outro documento js

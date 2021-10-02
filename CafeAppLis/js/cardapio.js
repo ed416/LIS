@@ -30,9 +30,9 @@ const itens = [
     "preparo":"Lorem ipsum dolor sit amet, consectetur adipisicing elit."
   },
 ];
-//acima dataset que vai ser usado para montar o cardapio dinamicamente
+//==acima, um dataset que vai ser usado para montar o cardapio dinamicamente
 
-//iteracao em cada objeto json presente na lista "itens", para preencher o cardapio dinamicamente com os seus valores
+//==iteracao em cada objeto json presente na lista "itens", para preencher o cardapio dinamicamente com os valores dos seus objetos json valores
 for (let item of itens) {
 
   const view = `<div class="col card mx-1 py-1">
@@ -45,9 +45,9 @@ for (let item of itens) {
                   </div>
                 </div>`;
 
-  //let itensCardapio = document.querySelector('.itens-cardapio');
+  //==let itensCardapio = document.querySelector('.itens-cardapio');
   let itensCardapio = document.getElementById("itens-cardapio");
   itensCardapio.insertAdjacentHTML('beforeend', view);
-  /*com o objeto document, e usando getElementById, o elemento com a classe "itens-cardapio" vai receber com "insertAdjacentHTML", o conteudo da constante view que por sua vez, sera a adicionado logo antes da tag de fechamento </body> com o
+  /*==com o objeto document, e usando getElementById, o elemento com a classe "itens-cardapio" vai receber com "insertAdjacentHTML", o conteudo da constante view que por sua vez, sera a adicionado logo antes da tag de fechamento </body> com o
   parametro "beforeend"*/
 }
